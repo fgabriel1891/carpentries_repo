@@ -24,7 +24,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 
 {% comment %}
 
-THIS IS MY NEWLY EDITED HEADER
+HEADER
 
 Edit the values in the block above to be appropriate for your workshop.
 If the value is not 'true', 'false', 'null', or a number, please use
@@ -106,8 +106,7 @@ the pitch.
 {% comment %}
 AUDIENCE
 
-Explain who your audience is.  (In particular, tell readers if the
-workshop is only open to people from a particular institution.
+My audience is great, the best, the very best and motivated students for learning new data carpentry skills!
 {% endcomment %}
 {% if site.carpentry == "swc" %}
 {% include swc/who.html %}
